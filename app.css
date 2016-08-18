@@ -1,0 +1,44 @@
+body{
+    background-color: #D1DBBD;
+}
+
+#main-container{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 800px;
+}
+
+.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.tabs li {
+    background: none;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.tabs li.selected-tab{
+    background: #FFFFFF;
+    cursor: default;
+    border: 1px solid #595241;
+    border-bottom: 0;
+}
+
+.tab-description{
+    border: 1px solid #595241;
+    background: #FFFFFF;
+    display: none;
+    height: 150px;
+    margin-top: -1px;
+    padding: 20px;
+    overflow: auto;
+
+}
+
+.tab-description.selected-tab{
+    display: inherit;
+}
