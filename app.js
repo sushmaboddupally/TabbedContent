@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	$('.tabs li').click(function(){
-		var clickedTab = $(this).attr('data-tab');			// Tab which the user clicks
+		let clickedTab = $(this).attr('data-tab');			// Tab which the user clicks
 
 		$('.tabs li').removeClass('selected-tab');			// Removing selected tab
 		$('.tab-description').removeClass('selected-tab');	// Removing selected description
